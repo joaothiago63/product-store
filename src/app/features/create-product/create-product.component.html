@@ -1,0 +1,9 @@
+<form [formGroup]="form" class="center" (ngSubmit)="onSubmit()">
+    <div class="w-75 form">
+        <mat-form-field>
+            <mat-label>Título</mat-label>
+            <input type="text" matInput formControlName="title">
+        </mat-form-field>
+        <button mat-fab extended type="submit" color="primary">Enviar</button>
+    </div>
+</form>
